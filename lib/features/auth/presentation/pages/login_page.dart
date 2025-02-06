@@ -78,6 +78,7 @@ class _LoginPageState extends State<LoginPage> {
                 const Text("Don't have an account? ",style: TextStyle(color: Colors.grey),),
                 GestureDetector(
                     onTap: (){
+
                       widget.togglePages!();
 
                     },

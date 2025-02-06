@@ -6,7 +6,8 @@ import 'package:socialmedia/features/auth/presentation/cubits/auth_cubit.dart';
 import 'package:socialmedia/features/auth/presentation/cubits/auth_states.dart';
 import 'package:socialmedia/themes/light_mode.dart';
 
-import 'features/Post/presentation/pages/home_page.dart';
+import 'features/Home/presentation/pages/home_page.dart';
+
 import 'features/auth/presentation/pages/auth_page.dart';
 class MyApp extends StatelessWidget {
   final authrepo = FirebaseAuthRepo();
